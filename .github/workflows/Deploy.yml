@@ -27,7 +27,7 @@ jobs:
       - name: Install
         run: yarn install
       - name: Build
-        run: yarn build && echo "hydro.js.org" >./.vuepress/dist/CNAME
+        run: yarn build && echo "oneoj.upan.ink" >./.vuepress/dist/CNAME
       - name: Build docs
         run: |
           cd ..
@@ -36,7 +36,7 @@ jobs:
           yarn
           yarn build
           yarn typedoc
-          cp -r docs ../hydro-dev.github.io/.vuepress/dist/api
+          cp -r docs ../help/.vuepress/dist/api
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
