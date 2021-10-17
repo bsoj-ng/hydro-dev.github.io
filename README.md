@@ -18,10 +18,6 @@ features:
   details: 沙箱复用，延迟计算，提高运行效率
 footer: AGPL3.0 Licensed | Copyright ? 2021-present OneOJ.
 ---
-
-![hydrooj](https://img.shields.io/npm/dm/hydrooj)
-![node-current](https://img.shields.io/node/v/hydrooj)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/hydro-dev/OneOJ)
   
 项目的开发与维护需要资金，欢迎进行捐助。  
 相关文档若说明的不够详细，请提交 Pull Request 或联系开发组说明。  
